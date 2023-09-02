@@ -1,20 +1,95 @@
-/*CSS Reset*/
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-family: 'Teko', sans-serif;
+body {
+/*	background-color: #EEFFE6;*/
+	background-color: #002233;
+}
+
+nav {
+	font-family: 'Monoton', sans-serif;
+	color: white;
+	background-color: #E09600;
+}
+
+h1 {
+	font-family: 'Monoton', sans-serif;
+	color: #E09600;
+}
+
+h5 {
+	font-family: 'Tektur', sans-serif;
+	color: white;
+}
+
+#fa-logos a {
+	text-decoration: none;
+	color: #E09600;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
 }
 
 .me {
 	width: 250px;
+	border: 10px double #E09600;
 }
 
-/*.home {
-	background-color: olivedrab;
-}*/
+#project-description {
+	border: 2px dotted #E09600;
+	border-radius: 10px;
+	position: relative;
+}
 
-/*.message {
-	height: 16px;
-	flex-wrap: wrap;
-}*/
+#project-description h3 {
+	color: #E09600;
+}
+
+#project-description p {
+	color: white;
+}
+
+.link1, .link3 {
+	position: absolute;
+	bottom: 10px;
+	right: 15px;
+	color: #E09600;
+}
+
+.link2, .link4 {
+	position: absolute;
+	bottom: 10px;
+	left: 15px;
+	color: #E09600;
+}
+
+.blog-img {
+	min-width: 330px;
+}
+
+#tools h3 {
+	font-family: 'Tektur', sans-serif;
+	color: white;
+	font-weight: bold;
+}
+
+form {
+	width: 350px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+form > button {
+	background-color: #E09600;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0 0 1px 1px white ;
+}
+
+footer {
+	background-color: #E09600;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+
+
