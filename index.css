@@ -1,5 +1,4 @@
 body {
-/*	background-color: #EEFFE6;*/
 	background-color: #002233;
 }
 
@@ -24,6 +23,10 @@ h5 {
 	color: #E09600;
 }
 
+#fa-logos a:hover {
+	opacity: 0.5;
+}
+
 p {
 	font-family: 'Roboto', sans-serif;
 }
@@ -31,6 +34,24 @@ p {
 .me {
 	width: 250px;
 	border: 10px double #E09600;
+	animation-name: me-border;
+	animation-duration: 40s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+}
+
+@keyframes me-border {
+	0% {border-color: #E09600}
+	10% {border-color: white}
+	20% {border-color: #E09600}
+	30% {border-color: white}
+	40% {border-color: #E09600}
+	50% {border-color: white}
+	60% {border-color: #E09600}
+	70% {border-color: white}
+	80% {border-color: #E09600}
+	90% {border-color: white}
+	100% {border-color: #E09600}
 }
 
 #project-description {
@@ -83,6 +104,10 @@ form > button {
 	border: none;
 	border-radius: 3px;
 	box-shadow: 0 0 1px 1px white ;
+}
+
+form > button:hover {
+	opacity: 0.5;
 }
 
 footer {
