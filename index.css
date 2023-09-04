@@ -116,5 +116,9 @@ footer {
 	color: white;
 }
 
+footer p {
+	opacity: 0.5;
+}
+
 
 
